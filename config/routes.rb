@@ -1,17 +1,4 @@
 Sps::Application.routes.draw do
-  get "pages/home"
-
-  get "pages/contact"
-
-  get "pages/works"
-
-  get "pages/about"
-
-  get "home/contact"
-
-  get "home/works"
-
-  get "home/about"
 
   match '/about', :to=> 'pages#about'
   match '/contact', :to=> 'pages#contact'
